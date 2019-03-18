@@ -28,11 +28,11 @@ module.exports = function(source, sourcemap) {
 
   Object.assign(config, query);
 
-  if (config.keepUrl === true && !config.keepStyleUrl) {
+  if (config.keepUrl === true || config.keepStyleUrl === true) {
     styleProperty = 'styleUrls';
   }
 
-  if (config.keepUrl === true && !config.keepTemplateUrl) {
+  if (config.keepUrl === true || config.keepTemplateUrl === true) {
     templateProperty = 'templateUrl';
   }
 
