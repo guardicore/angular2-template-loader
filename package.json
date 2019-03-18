@@ -1,7 +1,7 @@
 {
-  "name": "angular2-template-loader",
-  "version": "0.6.2",
-  "description": "Angular webpack loader that inlines your angular templates and stylesheets into angular components.  ",
+  "name": "angular2-template-loader-guardicore",
+  "version": "0.6.3",
+  "description": "Angular webpack loader that inlines your angular templates and stylesheets into angular components.",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheLarkInn/angular2-template-loader.git"
+    "url": "git+https://github.com/guardicore/angular2-template-loader.git"
   },
   "keywords": [
     "angular",
@@ -25,9 +25,9 @@
   "author": "Sean Larkin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TheLarkInn/angular2-template-loader/issues"
+    "url": "https://github.com/guardicore/angular2-template-loader/issues"
   },
-  "homepage": "https://github.com/TheLarkInn/angular2-template-loader#readme",
+  "homepage": "https://github.com/guardicore/angular2-template-loader#readme",
   "devDependencies": {
     "codecov": "^1.0.1",
     "istanbul": "^0.4.3",
