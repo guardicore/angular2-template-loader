@@ -44,6 +44,13 @@ module.exports = function(source, sourcemap) {
     // with: template: require('./path/to/template.html')
     // or: templateUrl: require('./path/to/template.html')
     // if `keepUrl` or `keepTemplateUrl` query parameter is set to true.
+    if (config.excludeTemplateRegex) {
+      var shouldExclude = new RegExp(config.excludeTemplateRegex).test(url);
+
+      if (shouldExclude) {
+        templateProperty = 'template';
+      }
+    }
     return templateProperty + ":" + replaceStringsWithRequires(url);
   })
     .replace(stylesRegex, function (match, urls) {

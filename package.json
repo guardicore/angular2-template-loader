@@ -1,6 +1,6 @@
 {
   "name": "angular2-template-loader-guardicore",
-  "version": "0.6.4",
+  "version": "0.6.5",
   "description": "Angular webpack loader that inlines your angular templates and stylesheets into angular components.",
   "main": "index.js",
   "scripts": {
